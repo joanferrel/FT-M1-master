@@ -13,7 +13,11 @@ nuevoContador()     // 2
 const otroContador = counter()
 otroContador()      // 1
 otroContador()      // 2 */
-function counter() {}
+function counter() {
+
+
+  var h = 4
+}
 
 /* Ejercicio 2
 Tu tarea aquí es lograr, mediante un closure, que cacheFunction actúe como una memoria caché para el callback 
@@ -27,6 +31,7 @@ otra vez cálculos que ya se hicieron anteriormente.
   function square(n){
     return n * n
   }
+  
 
   const squareCache = cacheFunction(square)
 
